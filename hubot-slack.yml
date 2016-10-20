@@ -1,0 +1,9 @@
+hubot-slack:
+    image: unicell/hubot-slack:latest
+    environment:
+        - ST2_API=${ST2_API}
+        - ST2_AUTH_URL=${ST2_AUTH_URL}
+        - ST2_AUTH_USERNAME=${ST2_AUTH_USERNAME}
+        - ST2_AUTH_PASSWORD=${ST2_AUTH_PASSWORD}
+        - ST2_ROUTE=${ST2_ROUTE}
+        - HUBOT_SLACK_TOKEN=${HUBOT_SLACK_TOKEN}
