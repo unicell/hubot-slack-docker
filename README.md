@@ -24,5 +24,5 @@ HUBOT_SLACK_TOKEN=xoxb-1234567890-XXXXXXXXXXXXXXXXXXXXXXXX
 Run Hubot with docker-compose:
 
 ```
-docker-compose -f hubot-slack.yml up -d
+docker-compose up -d
 ```
