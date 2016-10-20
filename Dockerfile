@@ -36,4 +36,4 @@ RUN npm install hubot-stackstorm@${HUBOT_STACKSTORM_VERSION} --save && \
    mv external-scripts.json.new external-scripts.json
 
 # Entrypoint
-CMD ["/bin/sh", "-c", "cd ${BOTDIR} && bin/hubot --adapter slack"]
+CMD ["/bin/sh", "-c", "cd ${BOTDIR} && bin/hubot --adapter slack --alias !"]
